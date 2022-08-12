@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.fondoBody{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: linear-gradient(rgba(68, 73, 83, 0.664), rgba(16, 20, 29, 0.212)),
+    url(./imagen/piano-sobre-fondo-madera-closeup-concepto-instrumentos-musicales_169016-4829.jpg);
+    background-attachment: fixed;
+}
+
+/* Css del Header */
+
+.fondoHeader{
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+.PosicionHeader{
+    display: flex;
+    justify-content: center;
+}
+
+.estiloLogo{
+    cursor: pointer;
+}
+
+.fontTitulo{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 3.5em;
+    margin-block-start: 15px;
+    margin-block-end: 15px;
+    margin-top: 10px;
+    color: black;
+}
+
+/* Css del Navigation */
+
+.estiloNav{
+    text-align: center;
+    margin: 0em 1em 0em 1em;
+    padding: 0em 1.5em;
+}
+
+
+.navEnlace{
+    font-family: 'Fredericka the Great', cursive;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 0em 2em;
+    font-weight: bold;
+    margin-top: 10px;
+    color: black;
+}
+
+
+
+
+/* Css del Main */
+
+/* .Cssmain {
+    margin: 2em 3em 0em 3em;
+    background-color: rgba(240, 248, 255, 0.377);
+} */ 
+
+/* Carrousel */
+
+#principalCarrousel{
+    height: 40em;
+    box-shadow: 0 0 20px rgb(196, 96, 2);
+    margin-left: 3em;
+    margin-right: 3em;
+    overflow: hidden;
+}
+
+.contentCarrousel{
+    height: 100%;
+    position: relative;
+}
+
+.imgCarrousel{
+    width: 100%;
+    height: 100%;
+} 
+
+.flechasCarrousel{
+    height: 100%;
+    position: absolute;
+    top: 0em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flechasCarrousel > a{
+    padding: 0px 1em;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+}
+
+/* Css Table main */
+
+caption{
+    margin-top: 3em;
+    border: 2.5px solid;
+    border-radius: 5px;
+    background-color: silver;
+    font-size: 30px;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 0;
+}
+
+th{
+    border: 2px solid;
+    background-color: brown;
+}
+
+td{
+    border-radius: 5px;
+    border: 1.5px solid;
+    background-color: rgba(250, 235, 215, 0.541);
+}
+
+td{
+    display: flexbox;
+    font-size: small;
+    text-align: center;
+}
+
+.imagenTable{
+    width: 150px;
+    height: 125px;
+    display: block;
+    margin-left: 10px;
+}
+
+
+
+/* Css Footer */
+
+.sizeFooter{
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3em;
+    border-top: 3px solid rgb(196, 96, 0);
+    box-shadow: 0 0 5px rgb(255, 123, 0);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.botonFooter{
+    text-decoration: none;
+    color: antiquewhite;
+}

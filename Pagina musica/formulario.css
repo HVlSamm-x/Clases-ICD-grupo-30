@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.fondoBody{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: linear-gradient(rgba(68, 73, 83, 0.664), rgba(16, 20, 29, 0.212)),
+    url(./imagen/piano-sobre-fondo-madera-closeup-concepto-instrumentos-musicales_169016-4829.jpg);
+    background-attachment: fixed;
+}
+
+/* Css del Header */
+
+.fondoHeader{
+    margin-top: 0em;
+    margin-bottom: 2em;
+}
+
+.PosicionHeader{
+    display: flex;
+    justify-content: center;
+}
+
+.estiloLogo{
+    cursor: pointer;
+}
+
+.fontTitulo{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 3.5em;
+    margin-block-start: 15px;
+    margin-block-end: 15px;
+    margin-top: 10px;
+    color: black;
+}
+
+/* Css del Navigation */
+
+.estiloNav{
+    text-align: center;
+    margin: 0em 1em 0em 1em;
+    padding: 0em 1.5em;
+}
+
+
+.navEnlace{
+    font-family: 'Fredericka the Great', cursive;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 0em 2em;
+    font-weight: bold;
+    margin-top: 10px;
+    color: black;
+}
+
+/* Css del Main */
+
+/* .Cssmain {
+    margin: 2em 3em 0em 3em;
+    background-color: rgba(240, 248, 255, 0.377);
+} */
+
+/* Css Main formulario */
+
+.sizelabel{
+    width: 50%;
+    height: 130vh;
+    margin: 3em 25% 3em;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.514);
+    -moz-box-shadow: 0px -4px 73px -6px rgba(0, 0, 0, 0.74);
+    box-shadow: 0px 0px 26px 8px rgb(12, 12, 12);
+    padding: 0em;
+}
+
+.sizeAction{
+    margin-bottom: 3em;
+}
+
+label, input{
+    display: block;
+}
+label{
+    padding: 3em 5em;
+}
+
+input{
+    width: 100%;
+    height: 1.5em;
+    padding: 0.4em 1em;
+    margin-top: 1em;
+    border: 1px;
+    outline: none;
+    border-radius: 8px;
+}
+
+.sizeInput{
+    display: inline-block;
+    width: 4%;
+    padding: 0em;
+    margin: 2em 0em -5em;
+}
+
+
+.labelmediumsize{
+    margin: 0em ;
+}
+
+.labelsp{
+    padding: 3em 6em;
+    margin-bottom: -1em;
+}
+
+.sizeLabelObserv{
+    padding: 2em 6em;
+}
+
+#observ{
+    height: 7em;
+}
+
+
+.cssbutton{
+    display: flex;
+    justify-content: center;
+}
+.buttonEB{
+    border-radius: 10px;
+    padding: 0.8em;
+    border: 1px;
+    outline: none;
+}
+#buttomE{
+    margin-right: 1.5em;
+}
+
+button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+/* Css Footer */
+
+.sizeFooter{
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 3px solid rgb(196, 96, 0);
+    box-shadow: 0 0 20px rgb(196, 96, 2);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.botonFooter{
+    text-decoration: none;
+    color: antiquewhite;
+}

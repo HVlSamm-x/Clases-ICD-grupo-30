@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.fondoBody{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: linear-gradient(rgba(68, 73, 83, 0.664), rgba(16, 20, 29, 0.212)),
+    url(./imagen/piano-sobre-fondo-madera-closeup-concepto-instrumentos-musicales_169016-4829.jpg);
+    background-attachment: fixed;
+}
+
+/* Css del Header */
+
+.fondoHeader{
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+.PosicionHeader{
+    display: flex;
+    justify-content: center;
+}
+
+.estiloLogo{
+    cursor: pointer;
+}
+
+.fontTitulo{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 3.5em;
+    margin-block-start: 15px;
+    margin-block-end: 15px;
+    margin-top: 10px;
+    color: black;
+}
+
+/* Css del Navigation */
+
+.estiloNav{
+    text-align: center;
+    margin: 0em 1em 0em 1em;
+    padding: 0em 1.5em;
+}
+
+
+.navEnlace{
+    font-family: 'Fredericka the Great', cursive;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 0em 2em;
+    font-weight: bold;
+    margin-top: 10px;
+    color: black;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+.checkBtn{
+    font-size: 1.88em;
+    float: right;
+    line-height: 3.5em;
+    margin-right: 0.5em;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+
+/* Css del main */
+
+.Cssmain{
+    margin: 2em 3em 0em 3em;
+    background-color: rgba(240, 248, 255, 0.377);
+}
+
+.posicionPrincipal{
+    display: flex;
+    width: 100%;
+}
+
+.sizeImg{
+    margin: 0em 1em 0em 2em;
+}
+
+.TextoPrincipal{
+    width: 50%;
+    margin: 1em 1em 1em 1em ;
+}
+
+.Subtitulo{
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    font-size: 2em;
+}
+
+.parrafoPrincipal{
+    padding: 0em 2em;
+    text-align: justify;
+    font-size: 1.2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.sizeImgPrincipal {
+    width: 100%;
+    margin: 5em 0em;
+}
+.videoParrafo{
+    margin-top: 1em;
+    margin-left: 2em;
+}
+
+/* Css main Imagenes */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+.sizecontenido{
+    margin: 1em 0em 2em 0em;
+}
+
+.h3font{
+    font-size: 25px;
+    font-family: 'Raleway';
+    text-decoration: none;
+    color: black;
+}
+.colorParrafo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+
+b{
+    color: firebrick;
+    font-style: italic;
+}
+
+.sizeHistoria{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15%;
+    margin-top: 3em;
+}
+.estiloImagenHistoria{
+    margin-left: 1em;
+    border-radius: 25px;
+}
+.contenidoh3Historia{
+    text-align: center;
+    border-radius: 25px;
+    color: black;
+    margin: 0.5em 0em 2em 0.5em;
+    padding: 2em 0.5em;
+}
+.contenidoh3Historia:hover{
+    box-shadow: 0 0 30px rgb(255, 123, 0);
+    background-color: rgba(0, 0, 0, 0.747);
+    color: white;
+}
+
+.sizeTeoria{
+    display: flex;
+    margin-left: 15%; 
+    margin-top: 3em;
+}
+.estiloImagenTeoria{
+    margin-right: 1em;
+    border-radius: 25px;
+}
+.contenidoh3Teoria{
+    text-align: center;
+    border-radius: 25px;
+    color: black;
+    margin: 0.5em 0em 2em 0.5em;
+    padding: 2em 0.5em;
+}
+.contenidoh3Teoria:hover{
+    box-shadow: 0 0 30px rgb(255, 123, 0);
+    background-color: rgba(0, 0, 0, 0.747);
+    color: white;
+}
+
+.sizeInstrumentos{
+    display: flex;
+    justify-content: end;
+    margin-right: 15%;
+    margin-top: 3em;
+}
+.estiloImagenInstrumentos{
+    margin-left: 1em;
+    border-radius: 25px;
+}
+.contenidoh3Instrumentos{
+    text-align: center;
+    border-radius: 25px;
+    color: black;
+    margin: 1em 0em 2em 1em;
+    padding: 2em 0.5em;
+}
+.contenidoh3Instrumentos:hover{
+    box-shadow: 0 0 30px rgb(255, 123, 0);
+    background-color: rgba(0, 0, 0, 0.747);
+    color: white;
+}
+
+/* Css Footer */
+
+.sizeFooter{
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 3px solid rgb(196, 96, 0);
+    box-shadow: 0 0 20px rgb(196, 96, 2);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.botonFooter{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+
+@media (max-width: 1040px){
+    .fontTitulo {
+        font-size: 3em;
+    }
+    .estiloNav {
+        font-size: 0.9em;
+    }
+    .Cssmain {
+        margin: 2em 1em -1em 1em;
+    }
+    .sizeImg {
+        margin: 0em 1em 0em 2em;
+    }
+    .sizeImgPrincipal {
+        width: 100%;
+        height: 65%;
+        margin: 5em 0em;
+    }
+    .TextoPrincipal {
+        width: 60%;
+        margin: 1em 0.5em 0em 0.5em;
+    }
+    .Subtitulo {
+        font-size: 1.5em;
+    }
+    .parrafoPrincipal {
+        font-size: 1em;
+    }
+    .videoParrafo{
+        margin: 0.5em 2em;
+    }
+    .h3font {
+        font-size: 15px;
+        margin: 1em;
+    }
+    .sizeHistoria {
+        display: flex;
+        justify-content: center;
+        margin-right: 1em;
+    }
+    .sizeTeoria {
+        display: flex;
+        justify-content: center;
+        margin-left: 1em;
+        margin-top: 2em;
+    }
+    .sizeInstrumentos {
+        display: flex;
+        justify-content: center;
+        margin-right: 1em;
+        margin-top: 2em;
+    }
+}
+
+@media (max-width: 500px){
+    ul{
+        padding-inline-start: 0;
+    }
+
+    .fontTitulo{
+        font-size: 2.8em;
+    }
+    .PosicionHeader, .estiloNav{
+        width: 100%;
+    }
+    .sizeImgPrincipal{
+        display: none;
+    }
+
+    .Cssmain {
+        width: 102%;
+        margin: 0;
+    }
+
+    .posicionPrincipal {
+        margin: 0em -1em;
+        width: 172%;
+        height: 40em;
+    }
+
+    .videoParrafo {
+        width: 75%;
+        height: 35%;
+        margin: 1em 3.7em;
+    }
+
+    .sizeImg {
+        margin: 0em ;
+        width: 0%;
+    }
+
+    .sizeHistoria{
+        display: block;
+        width: 100%;
+        margin-top: 2em;
+    }
+    
+    .estiloImagenHistoria{
+        margin: 0em 0em;
+        width: 25em;
+        height: 15em;
+    }
+
+    .contenidoh3Historia {
+        margin: 0.5em 0em;
+        padding: 1em 0em;
+    }
+
+    .sizeFooter{
+        width: 102%;
+    }
+
+    ul{
+        padding-inline-start: 0;
+        position: fixed;
+        width: 90%;
+        height: 60vh;
+        left: 0em;
+        background: rgba(0, 0, 0, 0.753);
+        top: 13em;
+        left: -100%;
+        text-align: center;
+        transition: all 0.8s;
+    }
+    
+    .checkBtn{
+        display: block;
+        margin: 1.5em 16em;
+        line-height: 0em;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 4em 0;
+        width: 65%;
+        line-height: 1.88em;
+    }
+
+    .navEnlace{
+        font-size: 1.7em;
+        color: aliceblue;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+    }
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css"">
+    <link rel="icon" href="..//Pagina musica/imagen/music_piano_cello_1753.png">
+    <title>Login</title>
+    <script src="https://kit.fontawesome.com/c886d10720.js" crossorigin="anonymous"></script>
+</head>
+<body class="fondoBody">
+
+    <header class="fondoHeader" id="principal">
+        <div class="PosicionHeader">
+            <img class="estiloLogo" src="./imagen/pngkit_music-notes-clipart-png_738212.png" alt="Logo Musica" width="50px" height="70">
+            <h1 class="fontTitulo">Mousiké Téchne</h1>
+        </div>
+        
+        <div>
+            <nav class="estiloNav">
+                <a href="mousiké_téchne.html" class="navEnlace">Inicio</a>
+                <a href="HistoriaMusica.html" class="navEnlace">Historia de la Musica</a>
+                <a href="" class="navEnlace">Teoria Musical</a>
+                <a href="" class="navEnlace">Instrumentos Musicales</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="Cssmain">
+        <div class="sizelabel">
+            <form action="">
+                <div class="sizeAction">
+                    <label for="name">Nombres:
+                        <input id="name" placeholder="Nombre">
+                    </label>
+                    <label for="last">Apellidos:
+                        <input type="text" id="last" placeholder="Apellidos">
+                    </label>
+                    <label for="phone">Telefono / Celular:
+                        <input type="number" id="phone" placeholder="Telefono">
+                    </label>
+                    <label class="labelsp" for="sex">Genero:
+                        <div class="cssradio">
+                            <input class="sizeInput" type="radio" id="sex" name="radioSex">Masculino
+                            <input class="sizeInput" type="radio" id="sex" name="radioSex">Femenino
+                        </div>
+                    </label>
+                    <label class="labelsp" for="Politic">Politica de Privacidad
+                        <div>
+                            <input class="sizeInput" type="radio" id="Politic" name="Politic">Si
+                            <input class="sizeInput" type="radio" id="Politic" name="Politic">No
+                        </div>
+                    </label>
+                    <label class="sizeLabelObserv" for="observ">Observaciones
+                        <input id="observ" type="text" placeholder="Observaciones">
+                    </label>
+                    <div class="cssbutton">
+                        <button class="buttonEB" id="buttomE" type="submit">Enviar</button>
+                        <button class="buttonEB" type="reset">Borrar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="sizeFooter">
+            <p>Copyright&copy; 2022 Mousiké Téchne</p>
+            <a href="#principal" class="botonFooter">
+                <i class="fa-solid fa-angles-up"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
